@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_bloc_api/states_model.dart';
+import 'package:flutter_bloc_api/model/states_model.dart';
 
 abstract class StateModelStates extends Equatable {}
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_api/api_services.dart';
+import 'package:flutter_bloc_api/api_services/api_services.dart';
 import 'package:flutter_bloc_api/main.dart';
-import 'package:flutter_bloc_api/state_model_states.dart';
-import 'package:flutter_bloc_api/states_cubit.dart';
+import 'package:flutter_bloc_api/ui/cubits/state_model_states.dart';
+import 'package:flutter_bloc_api/ui/cubits/states_cubit.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

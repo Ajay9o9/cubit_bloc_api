@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_api/states_cubit.dart';
+import 'package:flutter_bloc_api/ui/cubits/states_cubit.dart';
 
-import 'home_page.dart';
+import 'ui/pages/home_page.dart';
 
 import 'dart:developer' as devtools show log;
 
